@@ -1,0 +1,160 @@
+body{
+  font-family: : 'Montserrat';
+  f
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 15%;
+
+}
+.title-header{
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+padding: 3% 15%;
+}
+
+h1{
+  font-weight: bold;
+  font-family: 'Montserrat',Bold 700;
+  font-size: : 40rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat',Bold 700;
+}
+h2{
+   font-family: 'Montserrat',Bold 700;
+   font-size: 3rem;
+   line-height: 1.5;
+   font-weight: bold;
+}
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* NAVBAR */
+
+
+.navbar{
+  padding: 3% 4% ;
+}
+.navbar-brand{
+  font-size: 10rem;
+  font-family:'Montserrat',Bold 700;
+  font-weight: bold;
+}
+/* .nav-item{
+  padding: 0 0;
+} */
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 40%;
+  transform: rotate(25deg);
+}
+
+/* <Features section */
+
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+  .carousel-item{
+      padding: 7% 15%;
+  }
+.testimonials-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px auto;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding:7% 15% 15%;
+}
+.cta-heading{
+font-weight: bold;
+font-family: "Montserrat";
+font-size: 3.5rem;
+line-height: 1.5;
+
+}
+.down-button{
+  margin: 1% 2% 2% 1%;
+  size:100%;
+}
+#footer{
+  text-align: center;
+  padding:7% 15%;
+
+}
+.social-icon{
+  margin: 20px 10px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
